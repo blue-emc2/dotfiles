@@ -2,7 +2,7 @@ return {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
   opts = {
-    ensure_installed = { "lua", "ruby", "html", "css", "javascript", "yaml", "json", "bash" },
+    ensure_installed = { "lua", "ruby", "html", "css", "javascript", "yaml", "json", "bash", "php", "rust" },
     highlight = {
       enable = true,
       additional_vim_regex_highlighting = false,

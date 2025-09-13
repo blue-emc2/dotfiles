@@ -1,5 +1,7 @@
 local opt = vim.opt
 
--- 行番号の表示
 opt.number = true
-opt.relativenumber = true
+
+vim.g.did_load_ftplugin = 1
+vim.g.did_load_ftplugin_lua = 1
+

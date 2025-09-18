@@ -9,8 +9,5 @@ return {
   end,
   config = function()
     require("barbar").setup()
-
-    vim.keymap.set("n", "<C-p>", "<Cmd>BufferPrevious<CR>", { desc = "Previous buffer" })
-    vim.keymap.set("n", "<C-n>", "<Cmd>BufferNext<CR>", { desc = "Next buffer" })
   end
 }

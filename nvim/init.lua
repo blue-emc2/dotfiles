@@ -2,6 +2,9 @@ require("options")
 require("config.lazy")
 require("keymaps")
 
+-- 画面分割を右側に
+vim.opt.splitright = true
+
 vim.o.clipboard = "unnamedplus"
 vim.o.termguicolors = true
 vim.o.fileencodings = "utf-8,euc-jp"

@@ -103,6 +103,10 @@ return {
           insert = "<C-e>",
         },
       },
+      window = {
+        layout = 'vertical',
+        width = 0.3
+      }
     },
   },
 }

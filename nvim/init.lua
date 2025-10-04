@@ -11,7 +11,7 @@ vim.o.fileencodings = "utf-8,euc-jp"
 vim.o.fileencoding = "utf-8"
 
 vim.opt.list = true
-vim.opt.listchars = "tab:>-"
+vim.opt.listchars = "tab:>-,trail:_,eol:$"
 
 -- インデントを自動で調整
 vim.opt.autoindent = true

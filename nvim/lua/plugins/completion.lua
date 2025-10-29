@@ -48,34 +48,6 @@ return {
       })
     end,
   },
-
-  -- Copilotの設定
-  {
-    "zbirenbaum/copilot.lua",
-    cmd = "Copilot",
-    event = "InsertEnter",
-    opts = {
-      suggestion = { enabled = false },
-      panel = { enabled = false },
-      filetypes = {
-        lua = true,
-        php = true,
-        ruby = true,
-      },
-      debug = {
-        enabled = true,
-        file = vim.fn.stdpath("cache") .. "/copilot.log",
-      },
-    },
-  },
-  
-  -- Copilot LSPの設定
-  {
-    "copilotlsp-nvim/copilot-lsp",
-    dependencies = { "zbirenbaum/copilot.lua", "neovim/nvim-lspconfig" },
-    ft = { "lua", "python", "javascript", "typescript", "go", "php", "ruby", "rust" },
-  },
-
   {
     "CopilotC-Nvim/CopilotChat.nvim",
     dependencies = {
